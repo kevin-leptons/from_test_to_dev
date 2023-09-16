@@ -67,3 +67,24 @@
 .reveal .justify-start { justify-content: flex-start; }
 .reveal .justify-center { justify-content: center; }
 .reveal .justify-end { justify-content: flex-end; }
+
+
+// custom
+.slides>section{
+    // display: flex;
+    // flex-flow: row wrap;
+    // align-content: flex-start;
+    // gap: 1rem;
+}
+
+.slides>section>.title {
+    display: block;
+    padding: 0 1rem;
+    border-radius: 1rem;
+    text-align: left;
+    background: #ddd;
+}
+
+.special-body {
+
+}
